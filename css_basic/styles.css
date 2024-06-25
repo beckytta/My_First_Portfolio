@@ -1,17 +1,29 @@
 body{
   display: flex;
   flex-direction: column;
+  color:wheat;
 }
 main{
   display: flex;
   flex-direction: row;
   flex: auto;
+  background-color: whitesmoke;
 }
 article{
   flex: 2;
   overflow-y: auto;
+  background-color:grey;
+  border-radius: 8px;
 }
 aside{
   flex: 1;
   overflow-y: auto;
 }
+header{
+  background-color: chocolate;
+  color: #000;
+}
+footer{
+  color: #000;
+}
+
